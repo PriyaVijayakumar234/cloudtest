@@ -1,2 +1,22 @@
 fastapi[standard]>=0.113.0,<0.114.0
 pydantic>=2.7.0,<3.0.0
+coverage
+pytest
+pytest-asyncio
+pytest-cov
+pytest-redis
+redis>=5.0.0,<6.0.0
+types-redis>=5.0.0,<6.0.0
+uvicorn[standard]>=0.23.0,<0.24.0
+httpx>=0.24.0,<0.25.0
+# For testing
+pytest-asyncio>=0.21.0,<0.22.0
+pytest-cov>=4.1.0,<5.0.0
+# For coverage
+coverage>=7.4.0,<8.0.0
+# For Redis testing
+pytest-redis>=0.4.0,<0.5.0
+# For Redis client testing
+redis-py-cluster>=2.1.0,<3.0.0
+# For Redis client testing
+redis-py>=5.0.0,<6.0.0
